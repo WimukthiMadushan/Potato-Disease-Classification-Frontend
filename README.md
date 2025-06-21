@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+### 🥔 Potato Disease Classification – Frontend
 
-## Getting Started
+A responsive and user-friendly web interface for classifying potato leaf diseases using machine learning.
+Built with **React**, this frontend allows users to upload leaf images and receive real-time predictions powered by a trained deep learning model. It visually displays the result (e.g., Early Blight, Late Blight, or Healthy) and provides confidence scores for each prediction.
 
-First, run the development server:
+🔧 **Tech Stack:** Next JS
+📦 **Features:**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+* Image upload with preview
+* Real-time disease prediction
+* Clean UI for easy interaction
+* Connected to a backend API serving ML predictions
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ideal for farmers, researchers, or agritech platforms aiming to detect crop diseases early and improve yield quality.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+![image](https://github.com/user-attachments/assets/81d9aef9-eebf-4ab7-b4e6-d56f90f63e90)
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
